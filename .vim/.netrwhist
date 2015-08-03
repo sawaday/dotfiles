@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/sawadayusuke/.vim/bundle/neomru.vim'
-let g:netrw_dirhist_2='/Users/sawadayusuke/.vim/bundle/syntastic'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/vagrant'
+let g:netrw_dirhist_2='/home/vagrant/dotfiles'
+let g:netrw_dirhist_3='/home/vagrant'
+let g:netrw_dirhist_4='/home/vagrant/dotfiles'
+let g:netrw_dirhist_5='/home/vagrant/dotfiles/.vim'
+let g:netrw_dirhist_6='/home/vagrant/dotfiles/.vim/bundle'
+let g:netrw_dirhist_7='/home/vagrant/dotfiles/.vim/bundle/neobundle.vim'
