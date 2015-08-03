@@ -1,0 +1,4 @@
+neobundle.vim
+neomru.vim
+syntastic
+unite.vim

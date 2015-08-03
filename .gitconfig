@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+#	user = sawada yusuke
+#	email = sawaday@SawadayMacBookAir.local
+[user]
+	name = sawaday
+	email = sawada.yusuke0108@gmail.com
