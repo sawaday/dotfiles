@@ -295,6 +295,7 @@ neobundle-options-depends	neobundle.txt	/*neobundle-options-depends*
 neobundle-options-directory	neobundle.txt	/*neobundle-options-directory*
 neobundle-options-disabled	neobundle.txt	/*neobundle-options-disabled*
 neobundle-options-external_commands	neobundle.txt	/*neobundle-options-external_commands*
+neobundle-options-fetch	neobundle.txt	/*neobundle-options-fetch*
 neobundle-options-focus	neobundle.txt	/*neobundle-options-focus*
 neobundle-options-force	neobundle.txt	/*neobundle-options-force*
 neobundle-options-gui	neobundle.txt	/*neobundle-options-gui*
@@ -356,6 +357,7 @@ syntastic-filetype-checkers	syntastic.txt	/*syntastic-filetype-checkers*
 syntastic-filtering-errors	syntastic.txt	/*syntastic-filtering-errors*
 syntastic-fish	syntastic.txt	/*syntastic-fish*
 syntastic-fizsh	syntastic.txt	/*syntastic-fizsh*
+syntastic-flagship	syntastic.txt	/*syntastic-flagship*
 syntastic-functionality	syntastic.txt	/*syntastic-functionality*
 syntastic-global-options	syntastic.txt	/*syntastic-global-options*
 syntastic-highlighting	syntastic.txt	/*syntastic-highlighting*
@@ -405,8 +407,12 @@ unite#get_kinds()	unite.txt	/*unite#get_kinds()*
 unite#get_sources()	unite.txt	/*unite#get_sources()*
 unite#get_status_string()	unite.txt	/*unite#get_status_string()*
 unite#get_unite_winnr()	unite.txt	/*unite#get_unite_winnr()*
-unite#mappings#get_current_filters()	unite.txt	/*unite#mappings#get_current_filters()*
-unite#mappings#set_current_filters()	unite.txt	/*unite#mappings#set_current_filters()*
+unite#mappings#get_current_converters()	unite.txt	/*unite#mappings#get_current_converters()*
+unite#mappings#get_current_matchers()	unite.txt	/*unite#mappings#get_current_matchers()*
+unite#mappings#get_current_sorters()	unite.txt	/*unite#mappings#get_current_sorters()*
+unite#mappings#set_current_converters()	unite.txt	/*unite#mappings#set_current_converters()*
+unite#mappings#set_current_matchers()	unite.txt	/*unite#mappings#set_current_matchers()*
+unite#mappings#set_current_sorters()	unite.txt	/*unite#mappings#set_current_sorters()*
 unite#redraw()	unite.txt	/*unite#redraw()*
 unite#set_profile()	unite.txt	/*unite#set_profile()*
 unite#smart_map()	unite.txt	/*unite#smart_map()*
@@ -548,6 +554,7 @@ unite-options-input	unite.txt	/*unite-options-input*
 unite-options-keep-focus	unite.txt	/*unite-options-keep-focus*
 unite-options-log	unite.txt	/*unite-options-log*
 unite-options-marked-icon	unite.txt	/*unite-options-marked-icon*
+unite-options-match-input	unite.txt	/*unite-options-match-input*
 unite-options-max-multi-lines	unite.txt	/*unite-options-max-multi-lines*
 unite-options-multi-line	unite.txt	/*unite-options-multi-line*
 unite-options-no-	unite.txt	/*unite-options-no-*
