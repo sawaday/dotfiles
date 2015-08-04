@@ -44,4 +44,3 @@ export PATH=~/bin:$PATH
 
 export PATH=/usr/local/sbin:$PATH # for Homebrew
 export PATH=/usr/local/bin:$PATH  # for Homebrew
-
