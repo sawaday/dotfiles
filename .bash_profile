@@ -7,6 +7,9 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/bin
+export PATH=/bin:$PATH
+# heroku のパスを追加
+export PATH="/usr/local/heroku/bin:$PATH"
 
-export PATH
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
