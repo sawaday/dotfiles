@@ -5,3 +5,5 @@
     co = checkout
 [core]
     editor = gvim -f
+[color]
+	ui = true

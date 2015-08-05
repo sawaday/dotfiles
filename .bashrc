@@ -38,7 +38,35 @@ alias gdi='git diff'
 alias gdc='git diff --cached'
 alias gad='git add'
 
-PS1="\n\`if [ \$? = 0 ]; then echo \[\e[32m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\` (\h:\w)\n* "
+PS1="\$(\
+  ret=\$?
+  rand=\$((RANDOM%36));\
+  if [ \$ret -eq 0 ];then\
+    if [ \$rand -lt 3 ];then
+      printf '\[\e[32m\](-_-)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -lt 5 ];then\
+      printf '\[\e[32m\](^_-)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -lt 6 ];then\
+      printf '\[\e[32m\](.^.)\[\e[m\] (\h:\w)\n$ ';\
+    else\
+      printf '\[\e[32m\](^_^)\[\e[m\] (\h:\w)\n$ ';\
+    fi;\
+  else\
+    if [ \$rand -lt 6 ];then\
+      printf '\[\e[31m\](@o@)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -lt 12 ];then\
+      printf '\[\e[31;1m\](>_<)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -lt 18 ];then\
+      printf '\[\e[31m\](*_*)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -lt 24 ];then\
+      printf '\[\e[31m\](T_T)\[\e[m\] (\h:\w)\n$ ';\
+    elif [ \$rand -eq 30 ];then\
+      printf '\[\e[31;1m\](/_T)\[\e[m\] (\h:\w)\n$ ';\
+    else\
+      printf '\[\e[31m\](>_<)\[\e[m\] (\h:\w)\n$ ';\
+    fi\
+  fi;\
+  )"
 
 export PATH=~/bin:$PATH
 

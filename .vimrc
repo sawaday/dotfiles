@@ -61,7 +61,8 @@ set number "行番号を表示する
 set title "編集中のファイル名を表示
 set showmatch "括弧入力時の対応する括弧を表示
 syntax on "コードの色分け
-set tabstop=4 "インデントをスペース4つ分に設定
+set expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent "オートインデント
 
 "#####検索設定#####
@@ -75,6 +76,9 @@ imap <C-k> <C-m>
 imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap [<Enter> []<Left><CR><ESC><S-o>
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
 
 " Turn off paste mode when leaving insert
 "autocmd InsertLeave * set nopaste
